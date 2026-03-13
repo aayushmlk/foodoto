@@ -1,4 +1,12 @@
-  pip install -r requirements.txt
-  streamlit run foodoto.py
-  create upload_images
-  install python 3.10
+---
+title: Foodoto
+emoji: 🥗
+colorFrom: green
+colorTo: green
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
+# Foodoto
+ML-powered food recognition and calorie counter.
