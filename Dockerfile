@@ -7,6 +7,12 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8501
+EXPOSE 7860
 
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+HEALTHCHECK CMD curl --fail http://localhost:7860/_stcore/health
+
+CMD ["streamlit", "run", "app.py", \
+    "--server.port=7860", \
+    "--server.address=0.0.0.0", \
+    "--server.headless=true", \
+    "--browser.gatherUsageStats=false"]
