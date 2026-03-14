@@ -305,6 +305,36 @@ section[data-testid="stSidebar"] hr { border-color: #2a5a3e !important; }
     padding-bottom: 24px;
     letter-spacing: 0.03em;
 }
+        /* ── Mobile responsive ── */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 24px 20px;
+        gap: 20px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 0.85rem;
+    }
+    .hero-badge {
+        min-width: 80px;
+        padding: 12px 16px;
+    }
+    .stat-row {
+        grid-template-columns: 1fr 1fr;
+    }
+    .nut-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .pred-name {
+        font-size: 1.8rem;
+    }
+    .cal-num {
+        font-size: 2rem;
+    }
+}            
 </style>
 """, unsafe_allow_html=True)
 
