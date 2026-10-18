@@ -369,7 +369,7 @@ CALORIE_FALLBACK = {
     'onion':40,'orange':47,'paprika':282,'pear':57,'peas':81,
     'pineapple':50,'pomegranate':83,'potato':77,'raddish':16,'soy beans':446,
     'spinach':23,'sweetcorn':86,'sweetpotato':86,'tomato':18,'turnip':28,
-    'watermelon':30
+    'watermelon':31
 }
 
 NUTRITION = {
