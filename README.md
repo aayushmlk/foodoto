@@ -10,3 +10,4 @@ pinned: false
 
 # Foodoto
 ML-powered food recognition and calorie counter.
+project link: https://aayushmlk-foodoto.hf.space/
